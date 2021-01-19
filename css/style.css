@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body > div.container {
+  margin: 1% 10%
+}
+
+div.container > header {
+  height: 15vh;
+  background-color: #E579E6;
+}
+
+div.container > div.hero {
+  height: 45vh;
+  background-color: #E3D67A;
+}
+
+div.container > section {
+  height: 60vh;
+  background-color: #0186FE;
+}
+
+div.container > section > div.lesser-title {
+  height: 20%;
+  background-color: #ABCFE7;
+}
+
+div.container > section > article {
+  height: calc(80% - 2%);
+  margin: 2%;
+  background-color: #ABCFE7;
+}
