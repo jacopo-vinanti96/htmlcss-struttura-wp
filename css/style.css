@@ -5,7 +5,7 @@
 }
 
 body > div.container {
-  width: 80vw;
+  width: 80%;
   margin: auto;
 }
 
@@ -24,9 +24,7 @@ div.container > div.hero {
 }
 
 div.container > section {
-  height: 60vh;
   background-color: #0186FE;
-  padding-bottom: 2%;
 }
 
 .clearfix::after {
@@ -36,15 +34,16 @@ div.container > section {
 }
 
 section > div.lesser-title {
-  height: 20%;
+  height: calc(60vh * 0.2);
   background-color: #ABCFE7;
 }
 
 section > article {
-  height: 76%;
-  margin-top: 2%;
+  height: calc(60vh * 0.76);
   background-color: #ABCFE7;
   float: left;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 section > article.art-left, section > article.art-right {
